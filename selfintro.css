@@ -1,0 +1,276 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    height: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.8);
+}
+
+header p{
+    font-size: 24px;
+
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.firstView h1{
+    font-size:64px;
+    text-align: center;
+    padding-top: 320px;
+}
+
+.firstView p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.firstView{
+    background-image:url(photo1/pinkboke.jpg);
+    background-size:cover;
+    height: 800px;
+}
+
+.about{
+    padding: 180px;
+}
+
+.profile-text{
+    width: 500px;
+    float: left;
+ }
+
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+.profile h3{
+    font-size: 24px;
+    margin-top: 72px;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile img{
+    width: 40%;
+    margin-left: 100px;   
+}
+
+.clearfix{
+    clear:both;
+}
+
+.school-club{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-club img{
+    width: 480x;
+    height: 360px;
+    border-radius:16px;
+}
+
+.school-club img{
+    margin-top: 8px;
+}
+
+.school-club p{
+    margin-top: 16px;
+}
+
+.school-club a{
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.favorite{
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    background-image: url(photo1/pinkhed16.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.favorite h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    color: #fef9fb;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+}
+
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+
+}
+
+.favorite-content{
+ width: 320px;
+ padding: 40px;
+ background-color: rgba(255, 255, 255, 0.8);
+ border-radius: 16px;
+}
+
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.favorite-content h3{
+ font-size: 24px;
+ margin-top: 16px;   
+}
+
+.favorite-content p{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+
+.works{
+    padding: 180px;
+    text-align: center;
+    background-color: #f5ecf4;
+}
+
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #f90;
+    display: inline-block;
+}
+
+.works-content{
+    display: flex;
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    text-align-last: left;
+}
+
+.works-content .works-text{
+    margin-left: 32px;
+}
+
+.works-content img{
+width: 320px;
+height: 180px;
+}
+
+.works-content h3{
+    font-size: 28px;
+}
+
+.works-content span{
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.works-content p{
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+
+.contact{
+    padding: 180px 370px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #f90;
+    display: inline-block;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align-last: left;
+}
+
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.contact .sns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .sns-instagram{
+    background-color:#CF2E92;
+}
+
+.contact .sns-facebook{
+background-color: #3b5998;
+}
+
+.contact .sns-website{
+    background-color: #333;
+}
+
+footer{
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
